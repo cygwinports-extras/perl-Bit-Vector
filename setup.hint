@@ -1,0 +1,6 @@
+category: Perl
+requires: perl perl-Carp-Clan
+sdesc: "Perl module for handling bit vectors"
+ldesc: "Bit-Vector is an efficient C library which allows you to handle
+bit vectors, sets (of integers), 'big integer arithmetic' and
+boolean matrices, all of arbitrary sizes."
