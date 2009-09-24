@@ -5,8 +5,10 @@ bit vectors, sets (of integers), 'big integer arithmetic' and
 boolean matrices, all of arbitrary sizes.
 
 Runtime requirements:
-  perl-5.10.0-3
-  perl-Carp-Clan-6.00-1
+  cygwin-1.7.0-61
+  libgcc1-4.3.2-2
+  perl-5.10.0-5
+  perl-Carp-Clan-6.00-2
 
 Canonical homepage:
   http://search.cpan.org/~stbey/Bit-Vector/
@@ -17,48 +19,22 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack perl-Bit-Vector-6.4-1-src.tar.bz2
+  unpack perl-Bit-Vector-7.0-1-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./perl-Bit-Vector-6.4-1.cygport all
+  cygport ./perl-Bit-Vector-7.0-1.cygport all
 
 This will create:
-  /usr/src/perl-Bit-Vector-6.4-1-src.tar.bz2
-  /usr/src/perl-Bit-Vector-6.4-1.tar.bz2
+  /usr/src/perl-Bit-Vector-7.0-1-src.tar.bz2
+  /usr/src/perl-Bit-Vector-7.0-1.tar.bz2
 
 -------------------------------------------
 
-Files included in the binary package:
-
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bit/Vector.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bit/Vector.pod
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bit/Vector/Overload.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bit/Vector/Overload.pod
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bit/Vector/String.pm
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/Bit/Vector/String.pod
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Bit/Vector/.packlist
-  /usr/lib/perl5/vendor_perl/5.10/i686-cygwin/auto/Bit/Vector/Vector.dll
-  /usr/share/doc/perl-Bit-Vector-6.4/Artistic.txt
-  /usr/share/doc/perl-Bit-Vector-6.4/CHANGES.txt
-  /usr/share/doc/perl-Bit-Vector-6.4/CREDITS.txt
-  /usr/share/doc/perl-Bit-Vector-6.4/GNU_GPL.txt
-  /usr/share/doc/perl-Bit-Vector-6.4/GNU_LGPL.txt
-  /usr/share/doc/perl-Bit-Vector-6.4/INSTALL.txt
-  /usr/share/doc/perl-Bit-Vector-6.4/README.txt
-  /usr/share/man/man3/Bit.Vector.3pm.gz
-  /usr/share/man/man3/Bit.Vector.Overload.3pm.gz
-  /usr/share/man/man3/Bit.Vector.String.3pm.gz
-
-------------------
-
 Port Notes:
 
------ version 6.4-1 -----
-Rebuilt for perl-5.10.
-
------ version 6.4-1 -----
-Initial release for Cygwin.
+----- version 7.0-1 -----
+Initial release for Cygwin 1.7.
 
 
 Cygwin port maintained by:
