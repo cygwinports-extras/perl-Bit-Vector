@@ -1,0 +1,11 @@
+CPAN_AUTHOR=stbey
+inherit perl
+
+NAME="perl-Bit-Vector"
+VERSION=7.3
+RELEASE=1
+CATEGORY="Perl"
+SUMMARY="Perl module for handling bit vectors"
+DESCRIPTION="Bit-Vector is an efficient C library which allows you to
+handle bit vectors, sets (of integers), big integer arithmetic and
+boolean matrices, all of arbitrary sizes."
