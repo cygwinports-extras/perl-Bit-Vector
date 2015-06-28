@@ -2,7 +2,7 @@ CPAN_AUTHOR=stbey
 inherit perl
 
 NAME="perl-Bit-Vector"
-VERSION=7.3
+VERSION=7.4
 RELEASE=1
 CATEGORY="Perl"
 SUMMARY="Perl module for handling bit vectors"
